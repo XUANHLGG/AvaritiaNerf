@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.tendoarisu.avaritianerf.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinInfinityPickaxe",
+    "MixinInfinityShovel",
+    "MixinInfinityAxe",
+    "MixinEntityGapingVoid"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
